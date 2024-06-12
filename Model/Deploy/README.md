@@ -1,0 +1,1 @@
+After experimentation and training, we finally end up with a high level keras model. In order to deploy the model onto embedded devices, we convert the keras model to a tflite model. We also apply quantization to reduce latency and computation, although, this might decrease accuracy a bit. A metadata is attached to know specifications regarding the model.
